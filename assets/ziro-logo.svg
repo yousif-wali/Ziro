@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ziro Logo">
+  <!-- Background: subtle rounded square to nod to mobile -->
+  <rect x="32" y="32" width="448" height="448" rx="96" fill="#111111"/>
+  
+  <!-- Inner ring for depth -->
+  <rect x="56" y="56" width="400" height="400" rx="80" fill="none" stroke="#2A2A2A" stroke-width="8"/>
+
+  <!-- Core mark: minimalist 'Z' / lightning motif (Zig-inspired) -->
+  <!-- Primary bolt -->
+  <path d="M340 128 L188 128 L120 240 L240 240 L172 384 L392 224 L268 224 L340 128 Z" 
+        fill="#F7A41D" />
+
+  <!-- Subtle shadow to add dimension -->
+  <path d="M340 128 L188 128 L120 240 L240 240 L172 384 L392 224 L268 224 L340 128 Z" 
+        fill="url(#shadowGrad)" opacity="0.18"/>
+
+  <!-- Thin outline for crisp edges -->
+  <path d="M340 128 L188 128 L120 240 L240 240 L172 384 L392 224 L268 224 L340 128 Z" 
+        fill="none" stroke="#0A0A0A" stroke-width="4"/>
+
+  <!-- Accent notch (minimal detail) -->
+  <path d="M268 224 L252 248 L284 248 L300 224 Z" fill="#FFC566" opacity="0.9"/>
+
+  <!-- Gradient defs -->
+  <defs>
+    <linearGradient id="shadowGrad" x1="120" y1="128" x2="392" y2="384" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000000" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+</svg>
