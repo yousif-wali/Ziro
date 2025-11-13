@@ -132,6 +132,20 @@ ziro/
 
 ---
 
+## Track Progress
+Current Phase: 1
+
+- [ ] **ziro-collections:** Queues, stacks, hash maps, and allocators  
+- [ ] **ziro-cli:** Command-line interface parser  
+- [ ] **ziro-config:** Lightweight configuration loader using `comptime` parsing  
+- [ ] Base build system templates for Linux, macOS, Android, and iOS
+
+### ziro-collections
+- [x] Queues
+- [ ] Stacks
+- [ ] Hash Maps
+- [ ] Allocators
+
 ## 📄 License
 This project is open-source under the [MIT License](LICENSE).  
 Community contributions, performance testing, and cross-platform experiments are welcome.
